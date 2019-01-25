@@ -1,0 +1,167 @@
+body{
+    background: black;
+    margin: 0px;
+}
+
+p{
+    margin: 2px;
+}
+
+input, select{
+    padding:6px 0 6px 0;
+}
+
+button {
+    width: 80px;
+    border:none;
+    padding:6px 0 6px 0;
+    border-radius:8px;
+    background:#d34836;
+    font:bold 13px Arial;
+    color:#fff;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 1270px;
+}
+
+.alert{
+    padding: 20px;
+    text-align: center;
+    background-color: green;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.button{
+    text-decoration: none;
+    width: 100px;
+    border: 1px black;
+    padding:6px 6px 6px 6px;
+    border-radius:8px;
+    background:#d34836;
+    font:bold 13px Arial;
+    color:#fff;
+}
+
+.button:hover{
+    text-decoration: underline;
+}
+
+.paging{
+    width: 20px;
+    margin-left: 2px;
+}
+
+.paging:hover{
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.footer{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.columnFlex{
+    flex-direction: column;
+}
+
+.alignItems{
+    align-items: center;
+}
+
+.formulaire{
+    margin-top: 20px;
+    width: 200px;
+}
+
+.bar{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: grey;
+    height: 50px;
+    box-shadow: 0 4px 3px rgba(150,150,150,.5);
+}
+
+.favicon{
+    padding: 0 10px 0 40px;
+    width: 35px;
+    height: 50px;
+}
+
+.titre-en-tete{
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+    margin-left: 10px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titre-en-tete:hover{
+    background-color: darkblue;
+}
+
+.text-en-tete{
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-en-tete:hover{
+    background-color: darkblue;
+}
+
+.img{
+    height: 250px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.text{
+    color: white;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+}
+
+#infos-film{
+    margin-left: 50px;
+
+}
+
+#title{
+    width: 250px;
+}
+
+#review{
+    height: 200px;
+    width: 750px;
+    resize: none;
+}
+
+#actualPage{
+    color: blue;
+}
+
+
+
+
+
+
